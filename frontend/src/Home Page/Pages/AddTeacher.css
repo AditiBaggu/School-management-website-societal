@@ -1,0 +1,72 @@
+.AddTeacher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1250px;
+  }
+  
+  .AddTeacher .rectangle {
+    width: 400px;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .AddTeacher h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .AddTeacher .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .AddTeacher label {
+    font-weight: bold;
+  }
+  
+  .AddTeacher input[type='text'],
+  input[type='password'],
+  input[type='file'] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+   .AddTeacher button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .AddTeacher .submit-btn:hover {
+    background-color: #555;
+  }
+  
+  .AddTeacher .upload-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 960px) {
+    .AddTeacher {
+        height: 100%;
+        padding:10px;
+    }
+  
+    .AddTeacher .rectangle {
+      width: 75%;
+    }
+  }
+  

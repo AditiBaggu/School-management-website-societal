@@ -1,0 +1,50 @@
+.deleteStudent-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    padding:30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .deleteStudent-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    max-width: 300px;
+  }
+  
+  .deleteStudent-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color:black
+  }
+  
+  .deleteStudent-card p {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  .deleteStudent-card button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .ant-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ant-modal-content {
+    max-width: 400px;
+    width: 100%;
+  }

@@ -1,0 +1,73 @@
+.AddStudent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2000px;
+  }
+  
+  .AddStudent .rectangle {
+    width: 400px;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .AddStudent h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .AddStudent  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .AddStudentlabel {
+    font-weight: bold;
+  }
+  
+  .AddStudent input[type='text'],
+  input[type='password'],
+  input[type='file'] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .AddStudent button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .AddStudent .submit-btn:hover {
+    background-color: #555;
+  }
+  
+  .AddStudent .upload-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 960px) {
+    .AddStudent {
+      height: 100%;
+      padding:10px;
+    }
+
+  
+    .AddStudent .rectangle {
+      width: 75%;
+    }
+  }
+  

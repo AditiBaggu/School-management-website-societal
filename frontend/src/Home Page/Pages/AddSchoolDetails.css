@@ -1,0 +1,109 @@
+.AddSchoolDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2000px;
+  }
+  
+  .AddSchoolDetails .rectangle {
+    width: 400px;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .AddSchoolDetails h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .AddSchoolDetails .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .AddSchoolDetails label {
+    font-weight: bold;
+  }
+  
+  .AddSchoolDetails input[type='text'],
+  input[type='password'],
+  input[type='file'] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+   .AddSchoolDetails button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .AddSchoolDetails .submit-btn:hover {
+    background-color: #555;
+  }
+  
+  .AddSchoolDetails .upload-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 600px) {
+    .AddSchoolDetails {
+        height: 100%;
+        padding:10px;
+    }
+  
+    .AddSchoolDetails .rectangle {
+      width: 75%;
+    }
+  }
+  
+  .AddSchoolDetails .checkbox-group {
+    margin-bottom: 10px;
+  }
+  
+  .AddSchoolDetails  .checkbox-label {
+    font-weight: bold;
+  }
+  
+  .AddSchoolDetails .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .AddSchoolDetails .checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .AddSchoolDetails .checkbox-container input[type="checkbox"]:checked {
+    background-color: #2196f3;
+    border-color: #2196f3;
+  }
+  
+  .AddSchoolDetails .checkbox-container label {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  

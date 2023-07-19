@@ -1,0 +1,72 @@
+.EditEvent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1300px;
+  }
+  
+  .EditEvent .rectangle {
+    width: 400px;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .EditEvent h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .EditEvent .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .EditEvent label {
+    font-weight: bold;
+  }
+  
+  .EditEvent input[type='text'],
+  input[type='password'],
+  input[type='file'] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+   .EditEvent button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .EditEvent .submit-btn:hover {
+    background-color: #555;
+  }
+  
+  .EditEvent .upload-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 960px) {
+    .EditEvent {
+        height: 100%;
+        padding:10px;
+    }
+  
+    .EditEvent .rectangle {
+      width: 75%;
+    }
+  }
+  

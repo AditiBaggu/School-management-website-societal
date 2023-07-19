@@ -1,0 +1,48 @@
+.faculty-directory-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.faculty-card {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.faculty-card:hover {
+  transform: translateY(-5px);
+}
+
+.faculty-card-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.faculty-card-title {
+  font-size: 100px; 
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: 'Arial', sans-serif; 
+}
+
+.faculty-card-designation {
+  font-size: 16px; 
+  color: #555555;
+  font-style: italic;
+  font-family: 'Arial', sans-serif; 
+}
+
+.faculty-modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .faculty-card {
+    width: 100%;
+  }
+}

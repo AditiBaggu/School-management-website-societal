@@ -1,0 +1,15 @@
+.Home{
+    background-image: url('./Background.png');
+        background-size: 'cover';
+        background-position: 'center';
+        background-repeat: 'no-repeat';
+        
+        width: '100%';
+        
+}
+
+@media (max-width: 960px) {
+    .Home{
+        width:100%;
+    }
+  }
